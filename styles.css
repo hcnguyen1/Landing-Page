@@ -1,10 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    align-content: center;
 }
 
 h1 {
     margin: 0;
+    
 }
 
 #first-section {
@@ -19,15 +21,38 @@ h1 {
 #link {
     display: flex;
     font-size: 16px;
+    display: flex;
     justify-content: space-between;
 }
 
 p {
-    padding: 0px 20px;
+    margin: 0;
+    align-content: center;
+    padding: 0 10px;
 }
 
-hero {
+#second-section {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 10% 20%;
+    display: flex;
+}
+
+#subtext {
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+#image {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-content: center;
 }
